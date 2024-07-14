@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title><script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+<style>
+    body {
+    display:grid;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: black;
+}
+
+.calculator {
+    display: grid;
+    grid-template-rows: auto 1fr;
+    grid-template-columns: repeat(4, fr);
+    gap: 10px;
+    width: 320px;
+}
+
+.display {
+    grid-column: 4;
+    padding: 20px;
+    font-size: 20px;
+    text-align: right;
+    border: 1px solid white;
+    background-color: white; 
+    margin-left: -300px;  
+}
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 2fr);
+    gap: 10px;
+}
+
+.btn {
+   padding: 20px;
+    font-size: 20px;
+    border: 1px solid white;
+    background-color:white;
+    
+}
+.key1{
+    background-color: orange;
+    color:black;
+}
+.key2 {
+    background-color: lightgreen;
+    color: black;
+}
+.key3 {
+    background-color: lightgreen;
+    color:b;
+    font-size: 20px;
+}
+.key4{
+    background-color: lightgreen;
+    }
+    h1{
+        color: black;
+    }
+</style>
+</head>
+<body>
+    <div class="calculator">
+        <input type="text" class="display" disabled>
+        <h1>326</h1>
+        <div class="buttons">
+            <div class="key1">C</div>
+            <div class="key1">/</div>
+            <div class="key1">*</div>
+            <div class="key1">-</div>
+            <div class="btn">7</div>
+            <div class="btn">8</div>
+            <div class="btn">9</div>
+            <div class="key2">+</div>
+            <div class="btn">4</div>
+            <div class="btn">5</div>
+            <div class="btn">6</div>
+            <div class="key4">=</div>
+            <div class="btn">1</div>
+            <div class="btn">2</div>
+            <div class="btn">3</div>
+            <div class="key3">%</div>
+            <div class="btn">00</div>
+            <div class="btn">0</div>
+            <div class="btn">.</div>
+            <div class="key4"><ion-icon name="close-circle-outline"></ion-icon></div>
+            
+        </div>
+    </div>
+    </body>
+</html>
