@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+<script type="text/javascript">
+    function tooglemenu(){
+        document.getElementById('sidebar').classlist.toggle('active')
+    }
+</script>
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+    }
+     #sidebar{
+        position: fixed;
+        width: 30%;
+        height: 100%;
+        left: -30px;
+        background-color: black;
+    } 
+     #sidebar li{
+        color: white;
+        font-size: 30px;
+        padding: 30px;
+        border-bottom: 1px solid gray;
+        text-align: center; 
+    }
+    .toggle-btn{
+        position: absolute;
+        left: 105%;
+        top: 5px;
+    }
+    .toggle-btn span{
+        display: block;
+        background-color: black;
+        width: 30px;
+        height: 5px;
+        margin: 3px;
+    }
+   .{
+    border: 1px solid black;
+    height: 10px;
+   }
+</style>
+<body>
+    <div class="ibomma">
+        <div class="header">
+            <div class="navbar"><h2>home</h2>
+            <ul>
+                <li><a href="#" style="text-decoration: none;">gallery</a></li>
+                <li><a href="#" style="text-decoration: none;">about</a></li>
+                <li><a href="#" style="text-decoration: none;">contact us</a></li>
+                <li><a href="#" style="text-decoration: none;">deals</a></li>
+            </ul>
+        </div>
+            <!-- <div id="sidebar" onclick="togglemenu()">
+                <div class="toggle-btn">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <ul>
+                    <li>home</li>
+                    <li>about</li>
+                    <li>gallery</li>
+                    <li>contact us</li>
+                </ul>
+            </div> -->
+            <nav class="navbar navbar-expand-lg bg-body-tertiary">
+                <div class="container-fluid">
+                  <a class="navbar-brand" href="#">Navbar</a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Features</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Pricing</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </nav>
+        </div>
+    </div>
+</body>
+</html>

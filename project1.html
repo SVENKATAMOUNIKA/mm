@@ -6,16 +6,17 @@
     <title>Document</title><script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
     <style>
-    .project{
+      .project{
             border: 1px solid black;
+           box-sizing: border-box;
             display: flex;
             flex-direction: column;
     }
     .nav{
             border: 1px solid black;
-           display: grid;
-            grid-template-columns: 200px 20px 20px 40px 200px 100px 200px;
-            column-gap: 40px;
+           display: flex;
+           justify-content: center;
+           align-content: center;
             background-image: url(./banner-bg.png);
             }
             .menubar{
@@ -25,6 +26,7 @@
         border: 1px solid white;
         display: flex;
         flex-direction: column;
+        gap: 20px;
     } 
    
     h1{
@@ -34,7 +36,7 @@
         color: white;
     }
     .image{
-         margin-left: 500px;
+         margin-left: 450px;
         margin-top: -200px;
     } 
      .find{
@@ -42,7 +44,8 @@
         width: 90px;
         margin-left: 100px;
         background-color: red;
-        border-radius: 0%;
+        border-radius: 10%;
+        padding: 10px;
     }
     .image1{
         margin-left: 20px;
@@ -65,7 +68,9 @@
     margin-left: 530px;
     margin-top: 20px;
     background-color: red;
-    width: 100px;
+    width: 7vw;
+    border-radius: 20%;
+    padding: 10px;
    }
    .mm5{
     margin-top: 40px;
@@ -83,36 +88,26 @@
 .p2{
     margin-left: 80px;
 }
-.nav5{
-    border: 1px solid black;
-    height: 400px;
-    width: 100%;
-     background-image: url(./banner-bg.png); 
-     display: ;
-    justify-content: center;
-    align-content: center;
-    align-items: center;
-    gap: 20px;    
-}
+
 
 .m1{
     border: 1px solid white;
     background-color: white;
-    height: 280px;
-    width: 250px;
+    /* height: 280px;
+    width: 250px; */
 }
 
 .m2{
     border: 1px solid white;
     background-color: white;
-    height: 280px;
-    width: 200px;
+    /* height: 280px;
+    width: 200px; */
 }
 .m3{
     border: 1px solid white;
     background-color: white;
-    height: 280px;
-    width: 200px;
+    /* height: 280px;
+    width: 200px; */
 }
 .p4{
     font-size: 1px;
@@ -128,16 +123,18 @@
 
 .mm6{
     text-align: center;
-    font-size: 20px;
+    font-size: 30px;
 }
 .mm7{
-    font-size: 12px;
+    font-size: 20px;
+    text-align: center;
 }
 .nav7{
     border: 1px solid white;
     height: 300px;
-    width: 800px;
+    width: 200px;
      display: grid; 
+     gap: 20px;
      grid-template-columns: 200px 200px;
     
 }
@@ -155,8 +152,8 @@
     border: 1px solid gray;
    height: 300px;
     width: 500px;
-     margin-left: 100px;
-    margin-top: -302px;
+     margin-left: 90px;
+    margin-top: -321px;
 }
 .mm10{
     border: 1px solid blue;
@@ -173,17 +170,19 @@
     box-shadow: 1px;
 }
 .mm12{
- border: 1px solid white;
+ /* border: 1px solid rgba(14, 10, 10, 0.678); */
   margin-top: 10px;
+  /* background-color: rgba(255, 255, 255, 0.112); */
+  background-color:rgb(235, 232, 232);
 }
 .mm13{
-    margin-top: -10px;
+    margin-top: -20px;
     margin-left: 370px;
 }
 .container{
     border: 1px solid skyblue;
-    width: 850px;
-    height: 50px;
+    width: 50vw;
+    height: 10vh;
     justify-content: space-evenly;
 }
 .ul{
@@ -211,7 +210,7 @@ a:hover{
     border: 1px solid black;
     height: 300px;
     width: 400px;
-    background-color: skyblue;
+     background-color: skyblue;
     margin-top: -300px;
     margin-left: 400px;
 }
@@ -224,10 +223,7 @@ a:hover{
     grid-template-columns: 230px 230px 230px;
     grid-template-rows: 320px;
      justify-content: center;
-    gap: 10px;
-    
-    
-    
+    gap: 10px;   
 }
 .imp{
     border: 1px solid;
@@ -266,30 +262,93 @@ a:hover{
     justify-content: space-between;
 }
 .l2{
-    border: 1px solid white;
+    border: 1px solid skyblue;
     height: 50px;
-    margin-top: 30px;
+    width: 160px;
+    background-color: azure;
+    margin-top: 10px;
+    margin-left: 30px;
 } 
+.l3{
+   border: 1px solid skyblue;
+   height: 50px;
+   width: 160px;
+   background-color: azure;
+   margin-top:-50px ;
+   margin-left: 200px;
+}
+.l4{
+    border: 1px solid skyblue;
+    height: 70px;
+    width: 330px;
+    margin-top: 10px;
+    background-color: azure;
+    margin-left: 30px;
+    
+}
+.l5{
+    border: 1px solid red;
+    height: 20px;
+    width: 60px;
+    margin-top: 30px;
+    margin-left: 160px;
+    border-radius: 10%;
+    background-color: red;
+    text-align: center;
+
+}
+.f2{
+    margin-right: 700px;
+}
+.lastdiv{
+    border: 1px solid white;
+    height: 70vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+/* .div6{
+    border: 1px solid black;
+    height: 60vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+} */
+/* .again{
+    border: 1px solid black;
+    height: 100%;
+    width: 100%;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-evenly;
+   align-items: center;
+} */
+/* .separate{
+    border: 1px solid black;
+    height: 300px;
+    width: 50vh;
+} */
     </style>
 </head>
 <body>
+    <div class="artfactory">
     <div class="project">
          <div class="menubar">
-            <div class="nav"></div>
+             <div class="nav"></div>
             <div class="container">
                 <ul class="ul">
-                    <li><a href="">ART FACTORY</a></li>
-                    <li><a href="">HOME</a></li>
-                    <li><a href="">ABOUT</a></li>
-                    <li><a href="">SERVICES</a></li>
-                    <li><a href="">FREQUENTLY QUESTIONS</a></li>
-                    <li><a href="">DROP DOWN</a></li>
-                    <li><a href="">CONTACTS</a></li>
+                    <li><a href="#">ART FACTORY</a></li>
+                    <li><a href="#">HOME</a></li>
+                    <li><a href="#">ABOUT</a></li>
+                    <li><a href="#">SERVICES</a></li>
+                    <li><a href="#">FREQUENTLY QUESTIONS</a></li>
+                    <li><a href="#">DROP DOWN</a></li>
+                    <li><a href="#">CONTACTS</a></li>
                 </ul>
             </div>
             <div class="nav2">
                 <div class="mm">
-                    <h1>Art factory is free <br>for you</h1>
+                    <h1 style="font-style:;">Art factory is free <br>for you</h1>
                     <p>This templete is available for 100% free of charge on templateMo.<br>
                         Download,modify and use this for your business website.
                     </p>
@@ -403,9 +462,9 @@ enim nec eros tempor cursus at id libero.</div> -->
         <div class="mm7">vivamus venenatis eu mi ac mattis.Maecenas ut elementum sapien.nunc euismod risus ac lobortis congue.sed erat quam
         </div>
         </div><br>
-
+<div class="again">
     <div class="nav7">
-        <div class="mm8">Class aptent taciti sosiosqu ad litora torquent per conubia<br>
+      <div class="mm8">Class aptent taciti sosiosqu ad litora torquent per conubia<br>
             Curabitur aliquam eget tellus id porta</h2>
             <br>Prroin justo sapien,posuere susscript tortor in,fermentum<br>
             mattis elit.aenean in feugiat purus<br>
@@ -414,7 +473,8 @@ enim nec eros tempor cursus at id libero.</div> -->
             contact us on templateMo.</div>
             <div class="mm9">Email:email@company.com</div>
             <div class="mm10">contact us</div>
-            <div class="s1">
+       <!-- </div> -->
+    <div class="s1">
     <div class="mm11">First common question</div>
     <div class="mm12">Duis vulputate porttior urna sit amet pretium.phasellus sed pulvinar eros,<br>
     condimentum consequat ex.suspendisse potenti.</div>
@@ -430,30 +490,36 @@ enim nec eros tempor cursus at id libero.</div> -->
     <div class="mm12">sixth question answer</div>
     <div class="mm13">></div>
     </div> 
-    </div><br>
+    </div>
+    </div>
+<br>
 
 
 
     <div class="nav8">
         <div class="a1"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3670.4745425881247!2d72.5718123753155!3d23.079718179133728!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395e834a9b972bab%3A0x25dc8d9f8b8ed2de!2sArt%20Factory!5e0!3m2!1sen!2sin!4v1721527727872!5m2!1sen!2sin" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
-  </div>
+  </div> 
   <div class="a2">
-    <div class="l1"><form>
-       <div class="l2"><input type="text" name="fullname" id="name" placeholder="fullname"/></div>
-       <input type="text" name="email" id="email" placeholder="email"/><br>
-       <input type="text" name="your messege" id="your messege" placeholder="your messege"/><br>
-       <input type="submit"/>
-    </form>
+    <div class="l1">
+       <div class="l2">fullname</div>
+       <div class="l3">email</div>
+       <div class="l4">your messege</div>
+       <div class="l5">send it</div>
     </div>
-  </div><br>
-
-
-  <div class="footer">
-    <div class="f1">copyright@2020 Art factory company.design:S.Venkata Mounika</div>
-    <div class="f2"><span><ion-icon name="logo-facebook"></ion-icon></span>
-        <ion-icon name="logo-twitter"></ion-icon><ion-icon name="logo-linkedin"></ion-icon>
-        <ion-icon name="wifi-outline"></ion-icon><ion-icon name="globe-outline"></ion-icon></div>
   </div>
+<br>
+
+<div class="lastdiv">
+   <div class="footer">
+    <div class="f1">copyright@2020 Art factory company.design:S.Venkata Mounika</div>
+    <div class="f2"><span><ion-icon name="logo-facebook" style="color: gray;"></ion-icon></span>
+        <ion-icon name="logo-twitter" style="color: gray;"></ion-icon><ion-icon name="logo-linkedin" style="color: gray;"></ion-icon>
+        <ion-icon name="wifi-outline" style="color: gray;"></ion-icon><ion-icon name="globe-outline" style="color: gray;"></ion-icon></div>
+  </div>
+  </div>
+</div>
 </div>
 </body>
 </html>
+
+
